@@ -1,5 +1,7 @@
 # Polygon LxLy
 
+![Screen Shot 2023-11-15 at 10.03.51 AM.png](images/Screen_Shot_2023-11-15_at_10.03.51_AM.png)
+
 ## Quickstart
 
 This repo contains 2 scripts as an example for how how to send and claim messages on the Polygon LxLy Bridge.
