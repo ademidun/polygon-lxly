@@ -25,11 +25,22 @@ Originally, the concept of a universal database of assets underpinned blockchain
 
 ## Trusted vs. Trustless Bridges
 
-Bridges, holding over $200 billion worth of assets at their peak in March 2022, come in two types: trusted and trustless. Trusted bridges rely on a central entity to custody assets, introducing trust assumptions. In contrast, trustless bridges operate using smart contracts and algorithms, maintaining security at the blockchain level.
+With trusted Bridges, a third party validates transactions and acts as a custodian of the bridged assets. While in a trustless bridge smart contracts are the primary custodians of the assets.
 
-![Trusted vs Trustless Bridges](images/Screen_Shot_2023-11-15_at_9.55.03_AM.png)
+| Trusted Bridge | Trustless Bridges |
+| --- | --- |
+| Depends on central entity to custody assets | Operate using smart contracts and algorithms |
+| Users must rely on bridge operator’s reputation. Trust assumptions on funding custody and bridge security | Security of the bridge is the same as the underlying blockchain.
+Trust assumptions based on smart contract code |
+| Users give up control of their crypto assets | Users remain in control of their assets |
 
-However, trusted bridges have faced security challenges, with major hacks occurring due to their centralized nature. The Polygon LxLy bridge aims to address these concerns.
+Due to the combination of a large amount of assets being stored in blockchain bridges combined with the centralized nature of how assets are stored. [Most of the biggest hacks in the blockchain space have been on bridges](https://thedefiant.io/hackers-target-blockchain-bridges), specifically trusted bridges.
+
+![Screen Shot 2023-11-15 at 9.55.03 AM.png](images/Screen_Shot_2023-11-15_at_9.55.03_AM.png)
+
+The challenge with bridges is that they re-introduce the exact same problems that the blockchain was intended to solve. With trustless bridges such as the Ronin bridge, the security is dependent on the custodian so bridges like the Ronin bridge that used a multi-chain architecture, got exploited when 4 out of the 5 signers were hacked. 
+
+With trustless bridges, if there is a bug in the smart contract the bridge can also get hacked, which is what caused the Wormhole attack.
 
 ## Polygon LxLy Bridge
 
