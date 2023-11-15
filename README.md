@@ -30,8 +30,7 @@ With trusted Bridges, a third party validates transactions and acts as a custodi
 | Trusted Bridge | Trustless Bridges |
 | --- | --- |
 | Depends on central entity to custody assets | Operate using smart contracts and algorithms |
-| Users must rely on bridge operator’s reputation. Trust assumptions on funding custody and bridge security | Security of the bridge is the same as the underlying blockchain.
-Trust assumptions based on smart contract code |
+| Users must rely on bridge operator’s reputation. Trust assumptions on funding custody and bridge security | Security of the bridge is the same as the underlying blockchain. Trust assumptions based on smart contract code |
 | Users give up control of their crypto assets | Users remain in control of their assets |
 
 Due to the combination of a large amount of assets being stored in blockchain bridges combined with the centralized nature of how assets are stored. [Most of the biggest hacks in the blockchain space have been on bridges](https://thedefiant.io/hackers-target-blockchain-bridges), specifically trusted bridges.
