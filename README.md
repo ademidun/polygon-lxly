@@ -9,6 +9,14 @@ These 2 scripts contain just the core functionality highlighting the key sending
 To get the full contracts and code snippets, see [PingPongExample](https://github.com/0xPolygonHermez/code-examples/tree/main/pingPongExample).
 
 
+## Quickstart
+
+The followign snippet must be run in conjuction with the `PingPongExample`.
+
+`npx hardhat run send.js --network goerli`
+
+`npx hardhat run claim.js --network goerli`
+
 # What is the Polygon LXLY and Why Is it So Useful?
 
 Bridges are an important piece of the blockchain ecosystem. Allowing developers to build app-chains customized to their specific needs, while giving users the flexibility to move between different chains. In this article we’ll cover what are bridges and the two types of bridges. Finally we’ll cover the LxLy bridge, the benefits of the bridge, how it works and run through a live coding example.
