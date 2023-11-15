@@ -2,6 +2,8 @@
 
 ![Polygon LxLy](images/Screen_Shot_2023-11-15_at_10.03.51_AM.png)
 
+[Watch the video walkthrough](https://www.loom.com/share/2ee00d452ee34afeadf4fcfb8bea01a3) for this repo: https://www.loom.com/share/2ee00d452ee34afeadf4fcfb8bea01a3
+
 ## Quickstart
 
 This repository includes two example scripts demonstrating how to send and claim messages on the Polygon LxLy Bridge. These scripts focus on core functionality, emphasizing key sending and claiming operations.
