@@ -1,4 +1,4 @@
-# Polygon LxLy
+# Polygon LxLy Bridge
 
 ![Polygon LxLy](images/Screen_Shot_2023-11-15_at_10.03.51_AM.png)
 
